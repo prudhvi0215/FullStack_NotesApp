@@ -1,0 +1,118 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Notes Component */
+
+.notes{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+  margin: 0 0 0 30%;
+  border-radius: 3px;
+}
+
+.notes button{
+  padding: 2px;
+  font-weight: 900;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+#addNote{
+  cursor: pointer;
+}
+
+/* Body Section */
+
+.body{
+  /* border: 2px solid black; */
+  margin: 0 0 0 8%;
+  width: 80%;
+  padding: 10px;
+  font-size: 25px;
+  /* background: linear-gradient(to right,pink,rgb(244, 223, 226)); */
+}
+
+.body .notesBox{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* New Notes Component */
+
+.newNotes{
+  border: 2px solid black;
+  width: 25%;
+  margin: 4px;
+  padding: 0 0 10px 10px;
+  background: linear-gradient(to right,#e8b7a0,#61dafb);
+}
+
+/* .newNotes h2{
+  margin: auto auto;
+} */
+
+/* Navbar */
+#navbar{
+  text-align: center;
+  font-size: 40px;
+}
+
+/* Footer */
+#footer{
+  text-align: center;
+  margin: 15% 0 0 0;
+  font-size: 20px;
+}
+
+/* App */
+#App{
+  background: linear-gradient(to right,pink,lightblue);
+}
+
+/* Buttons */
+
+.newNotes button{
+  padding: 5px;
+  font-weight: 900;
+  border-radius: 3px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
